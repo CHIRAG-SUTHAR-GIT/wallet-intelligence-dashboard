@@ -1,0 +1,34 @@
+# ---------------------------------------------------------------
+# Case data - NEVER commit these.
+#
+# Binance reports contain real personal data: account holder emails,
+# UIDs, wallet addresses and full transaction histories. They stay on
+# the analyst's machine.
+# ---------------------------------------------------------------
+*.xlsx
+*.xls
+*.csv
+~$*
+
+# Excel lock files
+.~lock.*
+
+# Generated reports
+wallet_investigation_report*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

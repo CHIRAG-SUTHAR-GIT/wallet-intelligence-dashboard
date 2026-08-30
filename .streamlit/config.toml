@@ -1,0 +1,44 @@
+# Wallet Intelligence Dashboard - appearance
+#
+# Two complete palettes are defined. "base" picks the one used on a
+# fresh visit; a viewer can switch at any time from the app menu:
+#
+#     ... menu  ->  Settings  ->  Appearance
+#
+# Keeping both defined means the app is legible either way, instead of
+# inheriting half a palette when someone flips to dark.
+
+[theme]
+base = "light"
+font = "sans-serif"
+
+# -- Default (light) --------------------------------------------------
+
+[theme.light]
+primaryColor = "#1F3864"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F1F4F9"
+textColor = "#16233A"
+linkColor = "#1F3864"
+
+[theme.light.sidebar]
+backgroundColor = "#F1F4F9"
+secondaryBackgroundColor = "#E3E9F2"
+textColor = "#16233A"
+
+# -- Dark -------------------------------------------------------------
+
+[theme.dark]
+primaryColor = "#7FA8E8"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#1A1F2B"
+textColor = "#E6EAF2"
+linkColor = "#9CC0F5"
+
+[theme.dark.sidebar]
+backgroundColor = "#161B26"
+secondaryBackgroundColor = "#222836"
+textColor = "#E6EAF2"
+
+[browser]
+gatherUsageStats = false
